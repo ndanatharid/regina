@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>saya regina</title>
+    <!-- Linking CSS to the Html element -->
+    <link rel="stylesheet" href="style.css" />
+  <body>
+    <!-- Outside container of the profile card -->
+    <div class="container">
+      <!-- Base element of profile card -->
+      <div class="profile-box">
+        <!-- Profile pic -->
+        <img src="p/img/WhatsApp Image 2025-12-02 at 23.22.42_1340346a.jpg" class="profile-pic" />
+        <div class="profile-bottom">
+          <!-- Personal Information -->
+          <h3 class="txt1">Regina Julianti</h3>
+          <p class="txt2">Kelas XII PPLG 2</p>
+          <!-- Navigation icons -->
+          <div class="social-media">
+            <a
+              href="p/index.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/WhatsApp Image 2025-12-02 at 22.05.46_014a9810.jpg"
+            /></a>
+          </div>
+         
+
+          <p class="txt3">Lihat selengkapnya</p>
+          <!-- Arrow icon -->
+          <img src="images/arrow.png" class="darrow" id="da" />
+          <br><br>
+          <!-- About Section -->
+          <div class="about">
+          <h3>Tentang Sayat</h3>
+          <p>Regina Julianti, akrab disapa Regina, lahir di Purwakarta pada 4 Juli 2007. Ia merupakan seorang perempuan yang tinggal di Kampung Sukamaju RT 003/001, Desa Bojong Barat, Kecamatan Bojong, Kabupaten Purwakarta. Regina dikenal sebagai pribadi yang tenang dan memiliki minat besar dalam dunia literasi. Hobi utamanya adalah membaca novel, yang tidak hanya menjadi hiburan tetapi juga memperluas wawasannya serta menumbuhkan imajinasi kreatif.
+
+</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- JavaScript for the profile card -->
+  <script>
+    document
+      .getElementsByClassName("darrow")[0]
+      .addEventListener("click", function (e) {
+        document
+          .getElementsByClassName("profile-pic")[0]
+          .classList.toggle("onClick");
+        document
+          .getElementsByClassName("profile-bottom")[0]
+          .classList.toggle("onClick");
+        document
+          .getElementsByClassName("darrow")[0]
+          .classList.toggle("onClick");
+        document
+          .getElementsByClassName("social-media")[0]
+          .classList.toggle("onClick");
+          document
+          .getElementsByClassName("txt1")[0]
+          .classList.toggle("onClick");
+          document
+          .getElementsByClassName("txt2")[0]
+          .classList.toggle("onClick");
+          document
+          .getElementsByClassName("txt3")[0]
+          .classList.toggle("onClick");
+
+      });
+  </script>
+</html>

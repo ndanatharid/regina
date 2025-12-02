@@ -1,0 +1,869 @@
+
+/* =================================== */
+/*	Basic Style dengan tema Pink Pastel & Ungu */
+/* =================================== */
+
+body {
+    background-color: #4B0082; /* latar ungu */
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+    font-size: 13px;
+    color: #FFC0CB; /* teks utama pink pastel */
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure, p {
+    margin: 0;
+    color: #FFC0CB; /* teks paragraf pink pastel */
+}
+
+a {
+    color: #FFC0CB; /* link pink pastel */
+    -webkit-transition: all .3s ease-in 0s;
+       -moz-transition: all .3s ease-in 0s;
+        -ms-transition: all .3s ease-in 0s;
+         -o-transition: all .3s ease-in 0s;
+            transition: all .3s ease-in 0s;
+}
+
+iframe {
+    border: 0;
+}
+
+a, a:focus, a:hover {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:focus, a:hover {
+    color: #FF69B4; /* pink terang saat hover */
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-weight: normal;
+    margin: 0;
+    color: #FFC0CB; /* heading pink pastel */
+}
+
+.clear:before,
+.clear:after {
+    content: " ";
+    display: table;
+}
+ 
+.clear:after {
+   clear: both;
+}
+ 
+.clear {
+   *zoom: 1;
+}
+
+span.color {
+	color: #FF69B4; /* aksen pink terang */
+}
+
+/* =================================== */
+/*	Section & Footer (tema Pink Pastel & Ungu) */
+/* =================================== */
+
+body > section,
+.footer {
+	padding: 70px 0;
+    background-color: #4B0082; /* section & footer ungu */
+    color: #FFC0CB; /* teks pink pastel */
+}
+
+.sec-title {}
+
+.sec-title h2 {
+  color: #FFC0CB; /* judul pink pastel */
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.sec-sub-title {
+	margin: 35px 0 45px;
+}
+
+.sec-sub-title p {
+	font-weight: 600;
+	line-height: 24px;
+	font-size: 18px;
+	color: #FFC0CB; /* subjudul pink pastel */
+}
+
+.devider {
+  margin-top: 30px;
+}
+
+.devider i {
+  color: #FFC0CB; /* ikon pink pastel */
+}
+
+.devider:before,
+.devider:after {
+  content: "______________________";
+  color: #FF69B4; /* garis pink terang */
+  position: relative;
+  bottom: 6px;
+}
+
+.devider:before {
+  right: 10px;
+}
+
+.devider:after {
+  left: 10px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+/* Preloader */
+#preloader {
+  background-color: #4B0082; /* latar preloader ungu */
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1100;
+}
+
+#preloader > img {
+  left: 47%;
+  position: absolute;
+  top: 48%;
+}
+
+/*=========================================
+	Header (tema Pink Pastel & Ungu)
+==========================================*/
+
+#navigation {
+  background-color: rgba(75, 0, 130, 0.8); /* ungu transparan */
+  border: 0 none;
+  margin: 0;
+  -webkit-transition: background-color 800ms linear;
+     -moz-transition: background-color 800ms linear;
+      -ms-transition: background-color 800ms linear;
+       -o-transition: background-color 800ms linear;
+          transition: background-color 800ms linear;
+}
+
+.navbar-toggle i {
+  color: #FFC0CB; /* ikon toggle pink pastel */
+}
+
+.navbar-brand {
+  padding: 0;
+  color: #FFC0CB; /* brand pink pastel */
+}
+
+.navbar-nav li a {
+  border-top: 1px solid transparent;
+  color: #FFC0CB; /* link pink pastel */
+}
+
+.navbar-nav li a.current,
+.navbar-nav li a:focus,
+.navbar-nav li a:hover {
+  background-color: transparent;
+  border-top: 1px solid #FF69B4; /* garis pink terang */
+  color: #FF69B4; /* hover pink terang */
+}
+
+/*=========================================
+	Slider (tema Pink Pastel & Ungu)
+==========================================*/
+
+#slider {
+  padding: 0;
+  background-color: #4B0082; /* slider ungu */
+  color: #FFC0CB; /* teks slider pink pastel */
+}
+
+#slider .carousel-inner .item {
+  background-size: cover;
+  background: linear-gradient(to bottom, #4B0082, #000); /* ungu → hitam elegan */
+}
+
+.carousel-caption {
+  top: 50%;
+  color: #FFC0CB; /* teks default pink pastel */
+}
+
+.carousel-caption h2 {
+  font-size: 62px;
+  font-weight: 300;
+  color: #FFC0CB;
+}
+
+.carousel-caption h2 span {
+  font-weight: 800;
+  color: #FF69B4; /* highlight pink terang */
+}
+
+.carousel-caption h3 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 6px 0 20px;
+  color: #FFC0CB;
+}
+
+.carousel-caption p {
+  color: #FFC0CB;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.carousel-caption p:before,
+.carousel-caption p:after {
+  color: #FF69B4; /* aksen garis pink terang */
+  content: "___";
+  position: relative;
+  top: -8px;
+}
+
+.carousel-caption p:before { right: 20px; }
+.carousel-caption p:after { left: 20px; }
+
+.social-links {
+  margin-top: 5%;
+}
+
+.social-links li {
+  display: inline-block;
+}
+
+.social-links li a {
+  color: rgba(255, 192, 203, 0.6); /* pink pastel transparan */
+  display: block;
+  margin: 0 6px;
+}
+
+.social-links li a:hover {
+  color: #FF69B4; /* hover pink terang */
+}
+
+.carousel-indicators {
+  bottom: 10px;
+  left: inherit;
+  margin: 0;
+  right: 30px;
+  top: 49%;
+  width: 0;
+}
+
+.carousel-indicators li {
+  border: 1px solid rgba(255, 192, 203, 0.6); /* indikator pink pastel transparan */
+  height: 8px;
+  width: 8px;
+}
+
+.carousel-indicators .active {
+  background-color: #FFC0CB; /* aktif pink pastel solid */
+  height: 8px;
+  width: 8px;
+}
+
+/*=========================================
+	Features (tema Pink Pastel & Ungu)
+==========================================*/
+
+.features {
+  background-color: #4B0082; /* latar ungu */
+  color: #FFC0CB; /* teks pink pastel */
+}
+
+.owl-controls {
+  bottom: -45px;
+  margin-top: 10px;
+  position: relative;
+  text-align: center;
+}
+
+.owl-controls .owl-page {
+  display: inline-block;
+}
+
+.owl-controls .owl-page span {
+  border: 1px solid #FFC0CB; /* indikator pink pastel */
+  border-radius: 20px;
+  display: block;
+  height: 8px;
+  margin: 5px 4px;
+  width: 8px;
+}
+
+.owl-controls .owl-page.active span {
+  background: #FFC0CB; /* aktif pink pastel */
+  border: 0;
+}
+
+.service-icon {
+  border: 1px solid #FFC0CB; /* ikon pink pastel */
+  border-radius: 50%;
+  color: #FFC0CB;
+  float: left;
+  padding: 10px 13px;
+}
+
+.service-desc {
+  margin-left: 70px;
+  position: relative;
+  top: 5px;
+}
+
+.service-desc h3 {
+  color: #FFC0CB; /* judul pink pastel */
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+/*=========================================
+	Our Works (tema Pink Pastel & Ungu)
+==========================================*/
+
+.work-filter {
+  margin-bottom: 35px;
+}
+
+.work-filter ul li {
+  display: inline-block;
+}
+
+.work-filter ul li a {
+  color: #FFC0CB; /* link pink pastel */
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 17px;
+  border-radius: 6px;
+  text-transform: capitalize;
+}
+
+.work-filter ul li a:hover,
+.work-filter ul li a.active {
+  background-color: #4B0082; /* hover ungu */
+  border-radius: 6px;
+  color: #FF69B4; /* pink terang */
+  padding: 5px 17px;
+}
+
+.mix {
+  display: none;
+}
+
+.work-item {
+  float: left;
+  width: 25%;
+  position: relative;
+}
+
+.work-item > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.overlay {
+  background-color: rgba(75,0,130,.9); /* overlay ungu transparan */
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: #FFC0CB; /* teks overlay pink pastel */
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 450ms ease-out 0s;
+     -moz-transition: all 450ms ease-out 0s;
+       -o-transition: all 450ms ease-out 0s;
+          transition: all 450ms ease-out 0s;
+  -webkit-transform: rotateY(180deg) scale(0.5,0.5);
+     -moz-transform: rotateY(180deg) scale(0.5,0.5);
+      -ms-transform: rotateY(180deg) scale(0.5,0.5);
+       -o-transform: rotateY(180deg) scale(0.5,0.5);
+          transform: rotateY(180deg) scale(0.5,0.5);
+}
+
+.work-item:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: rotateY(0deg) scale(1,1);
+     -moz-transform: rotateY(0deg) scale(1,1);
+      -ms-transform: rotateY(0deg) scale(1,1);
+       -o-transform: rotateY(0deg) scale(1,1);
+          transform: rotateY(0deg) scale(1,1);
+}
+
+.work-item .overlay a {
+  border: 1px solid #FFC0CB; /* tombol pink pastel */
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 20%;
+  padding: 7px 10px;
+  color: #FFC0CB;
+}
+
+.work-item .overlay a:hover {
+  color: #FF69B4; /* hover pink terang */
+}
+
+.work-item .overlay a:hover {
+  color: #FF69B4; /* hover pink terang */
+}
+
+.work-item .overlay h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 25px 0 8px;
+  color: #FFC0CB; /* judul overlay pink pastel */
+}
+
+.work-item .overlay p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFC0CB; /* teks overlay pink pastel */
+}
+
+/*=========================================
+	Our Team Member (tema Pink Pastel & Ungu)
+==========================================*/
+
+.member-thumb {
+  width: 273px;
+  position: relative;
+}
+
+.member-thumb .overlay h5 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 10px 0;
+  color: #FFC0CB; /* judul overlay pink pastel */
+}
+
+.member-thumb .overlay {
+  font-size: 16px;
+  padding: 20px;
+  line-height: 24px;
+  color: #FFC0CB; /* teks overlay pink pastel */
+  background-color: rgba(75,0,130,0.9); /* overlay ungu transparan */
+}
+
+.team-member h4 {
+  color: #FFC0CB; /* nama anggota pink pastel */
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin: 15px 0 8px;
+}
+
+.member-thumb:hover .overlay {
+  cursor: pointer;
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: rotateY(0deg) scale(1,1);
+     -moz-transform: rotateY(0deg) scale(1,1);
+      -ms-transform: rotateY(0deg) scale(1,1);
+       -o-transform: rotateY(0deg) scale(1,1);
+          transform: rotateY(0deg) scale(1,1);
+}
+
+.team-member:hover h4 {
+  color: #FF69B4; /* pink terang saat hover */
+}
+
+.team-member .social-links {
+  margin-top: 24%;
+}
+
+.team-member .social-links li a {
+  background-color: #4B0082; /* tombol sosial ungu */
+  color: #FFC0CB;            /* ikon pink pastel */
+  height: 42px;
+  padding: 10px 0 0;
+  width: 42px;
+}
+
+/*=========================================
+	Some fun facts (tema Pink Pastel & Ungu)
+==========================================*/
+
+#facts {
+  background-image: url("../img/parallax/city.jpg");
+  background-color: rgba(75,0,130,.8); /* ungu transparan */
+  background-attachment: fixed !important;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.facts .devider:before,
+.facts .devider:after {
+  color: #FFC0CB; /* garis pink pastel */
+}
+
+.facts .devider i {
+  color: #FF69B4; /* ikon pink terang */
+}
+
+.parallax-overlay {
+  background-color: rgba(75,0,130,.8); /* overlay ungu */
+  padding: 70px 0;
+}
+
+.counters-item {
+  color: #FFC0CB; /* teks pink pastel */
+}
+
+/*=========================================
+	Counters Item (tema Pink Pastel & Ungu)
+==========================================*/
+
+.counters-item i {
+  border: 1px solid #FFC0CB; /* lingkaran pink pastel */
+  border-radius: 50%;
+  color: #FFC0CB; /* ikon pink pastel */
+  display: inline-block;
+  height: 120px;
+  margin: 0 0 35px;
+  padding: 40px 0 0;
+  width: 120px;
+}
+
+.counters-item strong {
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #FFC0CB; /* angka pink pastel */
+}
+
+.counters-item p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: #FF69B4; /* label pink terang */
+}
+
+/*=========================================
+	Contact Us (tema Pink Pastel & Ungu)
+==========================================*/
+
+.contact {
+  padding-bottom: 0;
+  background-color: #4B0082; /* latar ungu */
+  color: #FFC0CB; /* teks pink pastel */
+}
+
+.contact-address h3 {
+  color: #FFC0CB; /* judul pink pastel */
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.contact-address p {
+  line-height: 24px;
+  color: #FFC0CB; /* teks pink pastel */
+}
+
+.contact-form {}
+
+.contact-form h3 {
+  color: #FFC0CB; /* judul form pink pastel */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.contact-form .input-group {
+  width: 100%;
+}
+
+.contact-form .form-control {
+  border-color: #FFC0CB; /* garis bawah input pink pastel */
+  border-radius: 0;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  box-shadow: none;
+  margin-bottom: 10px;
+  background-color: #4B0082; /* latar input ungu */
+  color: #FFC0CB; /* teks input pink pastel */
+}
+
+.contact-form .input-field {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.contact-form .input-field:last-child {
+  margin-right: 0;
+}
+
+.contact-form .form-control.error {
+  border-bottom-color: #ff3333; /* merah untuk error */
+}
+
+/*=========================================
+	Counters Item (tema Pink Pastel & Ungu)
+==========================================*/
+
+.counters-item i {
+  border: 1px solid #FFC0CB; /* lingkaran pink pastel */
+  border-radius: 50%;
+  color: #FFC0CB; /* ikon pink pastel */
+  display: inline-block;
+  height: 120px;
+  margin: 0 0 35px;
+  padding: 40px 0 0;
+  width: 120px;
+}
+
+.counters-item strong {
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #FFC0CB; /* angka pink pastel */
+}
+
+.counters-item p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 15px;
+  text-transform: uppercase;
+  color: #FF69B4; /* label pink terang */
+}
+
+/*=========================================
+	Contact Us (tema Pink Pastel & Ungu)
+==========================================*/
+
+.contact {
+  padding-bottom: 0;
+  background-color: #4B0082; /* latar ungu */
+  color: #FFC0CB; /* teks pink pastel */
+}
+
+.contact-address h3 {
+  color: #FFC0CB; /* judul pink pastel */
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.contact-address p {
+  line-height: 24px;
+  color: #FFC0CB; /* teks pink pastel */
+}
+
+.contact-form {}
+
+.contact-form h3 {
+  color: #FFC0CB; /* judul form pink pastel */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 25px;
+}
+
+.contact-form .input-group {
+  width: 100%;
+}
+
+.contact-form .form-control {
+  border-color: #FFC0CB; /* garis bawah input pink pastel */
+  border-radius: 0;
+  border-style: none none solid;
+  border-width: 0 0 1px;
+  box-shadow: none;
+  margin-bottom: 10px;
+  background-color: #4B0082; /* latar input ungu */
+  color: #FFC0CB; /* teks input pink pastel */
+}
+
+.contact-form .input-field {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+}
+
+.contact-form .input-field:last-child {
+  margin-right: 0;
+}
+
+.contact-form .form-control.error {
+  border-bottom-color: #ff3333; /* merah untuk error */
+}
+
+.subscribe #subs {
+  background-color: transparent;
+  border: 0 none;
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  color: #FF69B4; /* ikon tombol pink terang */
+}
+
+.footer-single {
+  line-height: 24px;
+  color: #FFC0CB; /* teks pink pastel */
+}
+
+.footer-single li {
+  line-height: 32px;
+  color: #FFC0CB; /* teks list pink pastel */
+}
+
+.footer-single p i {
+  margin: 0 10px;
+  color: #FF69B4; /* ikon pink terang */
+}
+
+.credit a {
+  color: #FFC0CB; /* link credit pink pastel */
+}
+
+.credit a:hover {
+  color: #FF69B4; /* hover pink terang */
+}
+
+.copyright {
+  color: #FFC0CB; /* teks copyright pink pastel */
+  margin-top: 100px;
+}
+
+#back-top {
+  bottom: 20px;
+  position: fixed;
+  right: 25px;
+  z-index: 9;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure, p {
+  margin: 0;
+  color: #FFC0CB; /* teks pink pastel */
+}
+
+a {
+  color: #FFC0CB; /* default link pink pastel */
+  transition: all .3s ease-in 0s;
+}
+
+iframe {
+  border: 0;
+}
+
+a, a:focus, a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+a:focus, a:hover {
+  color: #FF69B4; /* pink terang saat hover */
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-weight: normal;
+  margin: 0;
+  color: #FF69B4; /* heading pink terang */
+}
+
+.clear:before,
+.clear:after {
+  content: " ";
+  display: table;
+}
+
+.clear:after {
+  clear: both;
+}
+
+.clear {
+  *zoom: 1;
+}
+
+.student-list .list-group-item span {
+  color: #4B0082;       /* nama siswa ungu */
+  font-weight: 600;     /* tegas */
+}
+
+.student-list .list-group-item a {
+  color: #FF69B4;       /* link pink terang */
+  font-weight: 500;
+  text-decoration: underline; /* biar jelas link */
+}
+
+.student-list .list-group-item a:hover {
+  color: #FFC0CB;       /* hover pink pastel */
+}
+
+/*=========================================
+    Navigation (tema Pink Pastel & Ungu)
+==========================================*/
+
+#navigation {
+  background-color: rgba(75,0,130,0.6); /* latar belakang ungu transparan */
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+#navigation .navbar-nav li a {
+  color: #FFC0CB;       /* teks link pink pastel */
+  font-weight: 600;
+  transition: all .3s ease-in-out;
+}
+
+#navigation .navbar-nav li a:hover,
+#navigation .navbar-nav li a:focus,
+#navigation .navbar-nav li.current a {
+  color: #FF69B4;       /* pink terang saat hover/aktif */
+  background-color: transparent;
+}
+
+.navbar-toggle i {
+  color: #FFC0CB;       /* ikon toggle pink pastel */
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+#navigation.scrolled {
+  background-color: #4B0082 !important; /* tetap ungu saat scroll */
+}
+
+/* Paksa navbar tetap ungu + shadow */
+#navigation,
+#navigation.scrolled,
+.navbar-fixed-top.scrolled,
+.navbar-fixed-top.affix {
+  background-color: #4B0082 !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* bayangan halus */
+}
